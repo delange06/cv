@@ -3,32 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>structure page HTML</title>
 </head>
 <body>
-    <h1>CV</h1>
   <header>
     <figure>
       <img src="https://picsum.photos/1660/354" alt="photo deco">
       <figcaption>superbe photo</figcaption>
     </figure>
     <nav>
-        <ul>
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Competences</a></li>
-            <li><a href="#">Experiences</a></li>
-            <li><a href="#">Formation</a></li>
-            <li><a href="#">Contact</a></li>
+       <ul class="nav-header">
+            <li><a href="#" title="a propos">A propos</a></li>
+            <li><a href="#" title="Competences">Competences</a></li>
+            <li><a href="#" title="Experiences">Experiences</a></li>
+            <li><a href="#" title="Formation">Formation</a></li>
+            <li><a href="#" title="Contact">Contact</a></li>
         </ul>
     </nav>
-    <h1>Dev Front-end</h1>
-
+    <h1>Developpeur</h1>
+    
   </header>
   <main>
-    <section></section>
-    <section></section>
-    <section></section>
+         <!-- Profil  -->
+    <section>
+      <article>
+        <header>
+          <h2>A propos</h2>
+          <figure>
+            <img src="https://via.placeholder.com/150" alt="photo profil">
+          </figure>
+        </header>
+        <aside> 
+          <ul>
+            <li>Carn</li>
+            <li>Jean</li>
+            <li><a href="mailto:jfrf@gmail.com">Contact mail</a></li>
+            <li><a href="tel:0658745520">tel</a></li>
+            <li><address>rue du fer 92122 Boulogne</address></li>
+          </ul>
+        </aside>     
+      </article>
+    </section>
+     <!-- Experience  -->
+    <section>
+      <h2>Experience professionnelle</h2>
+      <article>
+          <h3>Groupe Coty1</h3>
+          <h3>Dev Op1</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius                 ratione commodi cum quis laborum repudiandae magnam a adipisci,                illo hic eligendi aspernatur facilis corporis, possimus deserunt              quidem reprehenderit nam aliquam? <br>
+            Laudantium obcaecati atque voluptas tempora placeat incidunt                  officiis facere maiores quo, suscipit modi, error earum eaque                   quaerat recusandae illo, odit ipsum vero. Dicta ipsum ratione,                impedit sint laboriosam nihil excepturi!<br>
+            Ratione quibusdam optio quisquam tempora eaque culpa, corrupti,               iste rerum incidunt ullam vel? Nesciunt neque nihil hic ullam                 cumque atque molestias, ipsa ducimus velit autem quisquam est                 eaque architecto provident. <br>
+          </p>
+      </article>
+      <hr>
+      <article>
+        <h3>Groupe Coty2</h3>
+          <h3>Dev Op2</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius                 ratione commodi cum quis laborum repudiandae magnam a adipisci,                illo hic eligendi aspernatur facilis corporis, possimus deserunt              quidem reprehenderit nam aliquam? <br>
+            Laudantium obcaecati atque voluptas tempora placeat incidunt                  officiis facere maiores quo, suscipit modi, error earum eaque                   quaerat recusandae illo, odit ipsum vero. Dicta ipsum ratione,                impedit sint laboriosam nihil excepturi!<br>
+            Ratione quibusdam optio quisquam tempora eaque culpa, corrupti,               iste rerum incidunt ullam vel? Nesciunt neque nihil hic ullam                 cumque atque molestias, ipsa ducimus velit autem quisquam est                 eaque architecto provident. <br>
+          </p>
+      </article>
+      <hr>
+      <article>
+        <h3>Groupe Coty3</h3>
+          <h3>Dev Op3</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius                 ratione commodi cum quis laborum repudiandae magnam a adipisci,                illo hic eligendi aspernatur facilis corporis, possimus deserunt              quidem reprehenderit nam aliquam? <br>
+            Laudantium obcaecati atque voluptas tempora placeat incidunt                  officiis facere maiores quo, suscipit modi, error earum eaque                   quaerat recusandae illo, odit ipsum vero. Dicta ipsum ratione,                impedit sint laboriosam nihil excepturi!<br>
+            Ratione quibusdam optio quisquam tempora eaque culpa, corrupti,               iste rerum incidunt ullam vel? Nesciunt neque nihil hic ullam                 cumque atque molestias, ipsa ducimus velit autem quisquam est                 eaque architecto provident. <br>
+          </p>
+      </article>
+    </section>
+    <!-- Competences  -->
+    <section>
+      <article>
+        <h2>Competences</h2>
+        <table>
+          <caption>Comptetences</caption>
+          <thead>
+            <tr>
+              <th>Langage</th>
+              <th>progression</th>
+            </tr>
+          </thead>
+            
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td><progress id="file1" max="100" value="70">70%</progress></td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td><progress id="file2" max="100" value="80">80%</progress></td>
+            </tr>
+            <tr>
+              <td>JS</td>
+              <td><progress id="file3" max="100" value="70">70%</progress></td>
+            </tr>
+            <tr>
+              <td>Git</td>
+              <td><progress id="file4" max="100" value="70">70%</progress></td>
+            </tr>
+          </tbody>
+          
+          <tfoot>
+            
+          </tfoot>
+        </table>
+      </article>
+    </section>
+    <!-- Formation  -->
+    <section>
+      <h2>Mes Formations</h2>
+      <article>
+        <h3>Diplome1</h3>
+        <h3>
+          <span>7 juillet 1998</span>&emsp;
+          <span>2 mois</span>
+        </h3>
+        <p> Laudantium obcaecati atque voluptas tempora placeat incidunt                         officiis facere maiores quo, suscipit modi, error earum eaque 
+        </p>
+      </article>
+       <hr>
+      <article>
+        <h3>Diplome2</h3>
+        <h3>
+          <span>7 juillet 1998</span>&emsp;
+          <span>12 mois</span>
+        </h3>
+        <h3>lieu : Lyon</h3>
+        <p> Laudantium obcaecati atque voluptas tempora placeat incidunt                         officiis suscipit modi, error earum eaque 
+        </p>
+      </article>
+      <hr>
+      <article>
+        <h3>Diplome3</h3>
+         <h3>
+          <span>7 juillet 1998</span>&emsp;
+          <span>102 mois</span>
+        </h3>
+        <h3>lieu : Lille</h3>
+        <p> Laudantium obcaecati ateat inci officiis facere maiores quo, suscipit               modi, error earum eaque 
+        </p>
+      </article>
+    </section>
   </main>
   <footer>
   </footer>
