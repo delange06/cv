@@ -1,3 +1,38 @@
-p {
-    color: blue;
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff") format("woff");
+    font-display: swap;
+}
+#footer {
+    background: no-repeat url(../img/bg-motif.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto; 
+    /*margin: 10px 50px 50px 10px;  */
+}
+
+h1 {
+    text-align: center;
+    color: tomato;
+    font-size: 32px;
+    margin: 20px 0 50px 0;
+    font-family: OpenSans;
+}
+
+nav ul {
+    width: 70%;
+    margin: 0 auto;
+    background-color: aqua;
+    height: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    float: left;
 }
